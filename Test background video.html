@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-right">
+    <a  href="https://steamcommunity.com/id/EleMental-/">Steam</a>
+    <a href="https://twitter.com/EleMentalCSGO">Twitter</a>
+    <a href="https://discord.gg/PTYdTeq">GGX Discord</a>
+  </div>
+</div>
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="C:\Users\JSton\OneDrive\Desktop\HTML\CSGOBackgroundVideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<div class="content">
+
+  <h1>Fitness</h1>
+  <h2>The lead brand in fitness items</h2>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
