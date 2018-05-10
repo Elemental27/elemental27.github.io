@@ -46,12 +46,6 @@ body {
 }
 
 
-.header a:hover {
-  background-color: #DA3C2F;
-  color: black;
-}
-
-
 
 @media screen and (max-width: 500px) {
   .header a {
